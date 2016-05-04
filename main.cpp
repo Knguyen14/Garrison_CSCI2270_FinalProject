@@ -80,13 +80,20 @@ int main()
             }
             else if(input=="5")
             {
-                cout<<""<<endl;
+                cout<<"This option allows you to see all the different outcomes possible"<<endl;
             }
             else if (input=="6")
             {
                 cout<<"This option shows you an adventure that fits the mood you're in."<<endl;
             }
-            cout<<endl;
+            else if (input=="7")
+            {
+                cout<<"This option allows you to see what the other options do"<<endl;
+            }
+            else if (input=="8")
+            {
+                cout<<"This option allows you quit the game"<<endl;
+            }
         }
         else if (choice=="8")
         {
